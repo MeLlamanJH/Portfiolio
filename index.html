@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mdev_06</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="./styles/linux-terminal.css">
+    <script src="https://kit.fontawesome.com/013b0522c5.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/images/M12DEV.png"/>
+</head>
+<body>
+
+    <div class="back"></div>
+
+    <button id="left-nav-btn"><i class="fa-solid fa-bars"></i></button>
+
+    <nav class="left-nav">
+        <button id="left-nav-close"><i class="fa-solid fa-xmark"></i></button>
+        <a class="left-nav-btn" href="#section-terminal"><i class="fa-solid fa-terminal"></i> Terminal</a>
+        <a class="left-nav-btn" href="#habilities"><i class="fa-solid fa-code"></i> Habilidades</a>
+        <a class="left-nav-btn" href="#about"><i class="fa-solid fa-circle-info"></i> sobre mi...</a>
+        <a class="left-nav-btn" href="#contact"><i class="fa-solid fa-envelope"></i> Contacto</a>
+    </nav>
+
+    <nav class="descktop-nav">
+        <a class="top-nav-btn" href="#section-terminal"><i class="fa-solid fa-terminal"></i> Terminal</a>
+        <a class="top-nav-btn" href="#habilities"><i class="fa-solid fa-code"></i> Habilidades</a>
+        <a class="top-nav-btn" href="#about"><i class="fa-solid fa-circle-info"></i> sobre mi...</a>
+        <a class="top-nav-btn" href="#contact"><i class="fa-solid fa-envelope"></i> Contacto</a>
+    </nav>
+
+    <main>
+
+        <section id="home">
+
+            <!-- ANIMATED MINI INFO -->
+            <article id="section-miniinfo">
+
+                <h1>Hola, I'm Mdev_06</h1>
+                <h1 style="display: flex; color: #0079ca;"><span id="move-text">Futuro desarollador web...</span><span id="move-line"> |</span></h1>
+                <a href="#section-terminal" id="go-down"><i class="fa-solid fa-angles-down"></i></a>
+                <img id="profile-img" src="./assets/images/profile.png" alt="Mdev_06">
+
+            </article>
+
+            <!-- LINUX TERMINAL -->
+            <article id="section-terminal">
+
+                <div class="console-container">
+        
+                    <div class="console-top">
+                        <span class="console-btn" value="close" style="--color: #c00"></span>
+                        <span class="console-btn" value="maximize" style="--color: #da0"></span>
+                        <span class="console-btn" value="minimize" style="--color: #0c0"></span>
+                        <span class="console-title">root@Mdev_06_Terminal /home/Mdev_06/</span>
+                    </div>
+        
+                    <div class="console-active-console">
+        
+                        <div class="console-commandlist"></div>
+                        <div class="console-write">
+                            <div class="console-beforewrite"><span style="color: #0c0;">root@m06terminal:<span style="color: #0ad;">~</span></span>$</div>
+                            <input id="input-command" type="text" placeholder="_" value="help">
+                        </div>
+        
+                    </div>
+        
+                </div>
+    
+            </article>
+
+        </section>
+
+        <section id="habilities"></section>
+
+        <section id="about">
+            <h1>Sobre mi...</h1>
+            <p>
+            Soy un joven estudiante de 17 años en primer segundo año de Desarrollo de Aplicaciones Multiplataforma.<br><br>
+            Tengo solo 1 año de experiencia y quiero tener mucho más.<br><br>
+            </p>
+        </section>
+
+
+
+        <section id="contact">
+
+            <h1>Contacto</h1>
+
+            <form>
+                <div class="top-form-inputs">
+                    <input id="contact-name" type="text" placeholder="Nombre">
+                    <input id="contact-email" type="text" placeholder="E-Mail">
+                </div>
+                <textarea id="contact-message" placeholder="Tu mensaje"></textarea><br>
+            </form>
+            <button id="send-wh">enviar <i class="fa-solid fa-paper-plane"></i></button>
+
+        </section>
+
+    </main>
+
+    <section class="social-media">
+        <a target="_blank" href="https://discord.com/users/337679522226896911"><i class="fa-brands fa-discord"></i></a>
+        <a target="_blank" href="https://github.com/Mdev_06"><i class="fa-brands fa-github"></i></a>
+    </section>
+
+
+    <script src="./config.js"></script>
+    <script src="./code/main.js"></script>
+    <script src="./code/commands.js"></script>
+    <script src="./code/linux-console.js"></script>
+    <script src="./code/home-name.js"></script>
+</body>
+</html>
