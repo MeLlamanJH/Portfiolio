@@ -3,8 +3,9 @@ let Commands = {};
 // Shows available commands
 Commands['help'] = () => {
     commandList.innerHTML += 'Aquí tienes una lista con todos los comandos disponibles :)<br>'
-    commandList.innerHTML += `<span style="color: #24f">
+    commandList.innerHTML += `<span style="color: #24f">           
                               - ls<br>
+                              - info<br>
                               - cls<br>
                               - help<br>
                               - destroy<br>
@@ -13,8 +14,8 @@ Commands['help'] = () => {
 };
 
 // Shows personal information
-Commands['whoami'] = () => {
-    commandList.innerHTML += 'Hola! soy m06_dev ^^<br>, soy estudiante de 2ndo un ciclo de SMR/SMX';
+Commands['info'] = () => {
+    commandList.innerHTML += 'Hola! soy @m06_dev soy estudiante de 2ndo un ciclo de SMR/SMX';
 };
 
 // Shows social media list
@@ -25,7 +26,7 @@ Commands['ls'] = () => {
 };
 
 // Clear the terminal
-Commands['clear'] = () => {
+Commands['cls'] = () => {
     commandList.innerHTML = '';
 };
 

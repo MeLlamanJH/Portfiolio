@@ -16,28 +16,6 @@ for (i = 0; i < topNavLink.length; i++) {
     });
 };
 
-for (i = 0; i < topNavBtn.length; i++) {
-
-    topNavBtn[i].addEventListener('click', function() {
-
-        console.log('hola')
-
-        switch (this.value) {
-            case 'home':
-                break;
-            case 'preview':
-                break;
-            case 'shop':
-                window.open('https://m12-store.tebex.io','_blank')
-                break;
-            default:
-                console.error('Bronken link in top-nav')
-                break;
-        }
-
-    });
-
-}
 
 leftNavBtn.addEventListener('click', () => {
     leftNav.style.left = 0;
@@ -71,16 +49,6 @@ for (let i = 0; i < Config['habilities'].length; i++) {
     `
 }
 
-// Set preview from config
-for (let i = 0; i < Config['preview'].length; i++) {
-    let act = Config['preview'][i]
-    previewCont.innerHTML +=
-    `
-    <article class="preview-item">
-        <iframe class="preview-video" src="${act.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </article>
-    `
-}
 
 // If you see this I want to tell you "Hello! I dont want to use backend :)"
 document.querySelector('#send-wh').addEventListener('click', () => {
@@ -106,14 +74,14 @@ document.querySelector('#send-wh').addEventListener('click', () => {
     if (ValidateEmail(email.value)) {
 
         let xhr = new XMLHttpRequest()   
-        xhr.open('POST', 'https://discord.com/api/webhooks/930882200382107649/FmGtJs2RkJofZqDydbywwaq5Hde_bO8r8uqwo5HhVqL08SM3CYhWoNlBBPWlIoojYPYs', true)
+        xhr.open('POST', 'https://discord.com/api/webhooks/1155533178652606528/Se2MGNLoleqUAyI6oQftJS3O7nJqWHkEVQq6QqoOZwWcdci6Od6l0R2IN4nbUJJ_5zFN', true)
         xhr.setRequestHeader('Content-type', 'application/json; charset=UTF-8')
         xhr.send(JSON.stringify( wbhook ));
 
         name.value = '';email.value = '';message.value = '';
 
     } else {
-        email.value = 'Wrong Email!!';
+        email.value = 'Email incorrecto';
     }
 
 });
