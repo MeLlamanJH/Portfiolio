@@ -2,13 +2,11 @@ let Commands = {};
 
 // Shows available commands
 Commands['help'] = () => {
-    commandList.innerHTML += 'Here you have a list with all abailable commands :)<br>'
+    commandList.innerHTML += 'Aquí tienes una lista con todos los comandos disponibles :)<br>'
     commandList.innerHTML += `<span style="color: #24f">
-                              - whoami<br>
                               - ls<br>
-                              - clear<br>
+                              - cls<br>
                               - help<br>
-                              - hacker<br>
                               - destroy<br>
                               - hello
                               </span>`
@@ -16,7 +14,7 @@ Commands['help'] = () => {
 
 // Shows personal information
 Commands['whoami'] = () => {
-    commandList.innerHTML += 'Hi! I\'m monterillo12 ^^<br>I\'m stuing Multiplatform Applications Development but<br>I also like web development and lean by myself';
+    commandList.innerHTML += 'Hola! soy m06_dev ^^<br>, soy estudiante de 2ndo un ciclo de SMR/SMX';
 };
 
 // Shows social media list
@@ -45,5 +43,5 @@ Commands['destroy'] = () => {
 };
 
 Commands['hello'] = () => {
-    commandList.innerHTML += 'Hello Wold! 🤓👨‍💻';
+    commandList.innerHTML += 'Hola mundo! 🤓👨‍💻';
 };
