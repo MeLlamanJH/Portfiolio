@@ -12,7 +12,7 @@ inputCommand.addEventListener('keydown', function(k) {
         try {
             Commands[value]();
         } catch {
-            commandList.innerHTML += '<span style="color: #a00;">Error!</span> Command not found. Try: ls, whoami, clear...';
+            commandList.innerHTML += '<span style="color: #a00;">Error!</span> Command not found. Try: ls, info, clear...';
         };
         
     };
