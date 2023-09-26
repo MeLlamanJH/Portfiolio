@@ -2,7 +2,6 @@ let topNavBtn = document.querySelectorAll('.top-nav-btn');
 let topNavLink = document.querySelectorAll('.top-nav-link');
 let goDown = document.querySelectorAll('#go-down');
 let habilitiesCont = document.querySelector('#habilities');
-let previewCont = document.querySelector('.preview-container');
 let leftNavBtn = document.querySelector('#left-nav-btn');
 let leftNavClose = document.querySelector('#left-nav-close');
 let leftNav = document.querySelector('.left-nav');
