@@ -9,7 +9,8 @@ Commands['help'] = () => {
                               - cls<br>
                               - help<br>
                               - destroy<br>
-                              - hello
+                              - hello<br>
+                              - gymstats
                               </span>`
 };
 
@@ -45,4 +46,10 @@ Commands['destroy'] = () => {
 
 Commands['hello'] = () => {
     commandList.innerHTML += 'Hola mundo! 🤓👨‍💻';
+};
+
+Commands['gymstats'] = () => {
+    
+    commandList.innerHTML += '<span style="color: #FF0000">SQUAD: 130kg<br>';
+    commandList.innerHTML += '<span style="color: #FF0000">BENCH PRESS: 70kg';
 };
