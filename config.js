@@ -4,7 +4,7 @@ const Config =
     ['socialMedia']:
     [
         {name: '<i class="fa-brands fa-discord"></i> Discord', link: 'https://discord.com/users/337679522226896911'},
-        {name: '<i class="fa-brands fa-github"></i> GitHub', link: 'https://github.com/monterillo12'},
+        {name: '<i class="fa-brands fa-github"></i> GitHub', link: 'https://github.com/MeLlamanJH'},
     ],
 
     ['habilities']:
