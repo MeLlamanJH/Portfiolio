@@ -25,7 +25,7 @@ const Config =
         //{name:'Git', img:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'},
         {name:'GitHub', img:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'},
         {name:'VS Code', img:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg'},
-        {name:'Windows', img:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg'}
+        {name:'Windows Server', img:'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg'}
     ],
 
 }
