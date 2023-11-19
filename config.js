@@ -1,6 +1,5 @@
 const Config = 
 {
-
     ['socialMedia']:
     [
         {name: '<i class="fa-brands fa-discord"></i> Discord', link: 'https://discord.com/users/337679522226896911'},
